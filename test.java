@@ -1,8 +1,12 @@
 import java.util.Scanner;
+import java.util.*;
 public class test {
     public static void main(String [] args) {
-        Scanner sc = new Scanner(System.in);
-        int num = sc.nextInt();
-        System.out.println("Entered Number: " + num); 
+        // ArrayList
+        ArrayList<Integer> arr1 = new ArrayList<>();
+        arr1.add(1);
+        arr1.add(2);
+        arr1.add(3);
+        System.out.println("Arr1: " + arr1);
     }
 }
