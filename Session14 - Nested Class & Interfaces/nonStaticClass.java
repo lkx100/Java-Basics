@@ -1,6 +1,7 @@
 class OuterClass {
     private int age = 19;
     class InnerClass {
+        int num = 8;
         void display() {
             System.out.println("This is Inner Class");
         }

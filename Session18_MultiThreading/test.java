@@ -1,4 +1,3 @@
-import java.lang.Thread;
 class TaskB implements Runnable {
     String name = null;
     TaskB(String name) {this.name = name;}
